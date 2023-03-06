@@ -11,5 +11,5 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(rgb(233, 233, 79, black));
+    background: linear-gradient(rgb(blue, black));
 }
