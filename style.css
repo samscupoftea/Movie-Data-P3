@@ -78,10 +78,32 @@ p{
     font-size: 16px;
     line-height: 14px;
 }
+h5{
+    color: white;
+    
+}
 .row{
     display:flex;
     height: 88%;
     align-items: center;
+}
+.col{
+    flex-basis: 50%;
+   
+}
+
+.moviecard{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-image: url(./images/5dfaedf9bad0edd45f04488164e212dd.jpg);
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    transition: transform 0.5s;
 }
 
 
