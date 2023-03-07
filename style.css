@@ -15,6 +15,7 @@ header{
     flex: 2;
 
     height: 70px;
+    
     text-align: center;
     margin: auto;
     padding: 6px;
@@ -84,16 +85,17 @@ h5{
 
 }
 .row{
-    display:flex;
-    height: 88%;
-    align-items: center;
-    flex-direction: column;
-    margin-right: 20px;
     flex: 1;
 }
 .col{
-    flex-basis: 20%;
-    flex-direction: column;
+    flex: 1;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    
+
+
+   
+    
    
 }
 
@@ -102,16 +104,13 @@ h5{
     background-image: url(./images/5dfaedf9bad0edd45f04488164e212dd.jpg);
     background-size: cover;
     background-position: center;
-    
-
-    width: 300px;
-    height: 340px;
-    display: inline-block;
-    border-radius: 20px;
-    padding: 10px 15px;
- 
+   justify-content: center;
+    width: 350px;
+    height: 400px;
+    display: inline-flex;
+    border-radius: 20px 15px;
+    padding: 10px ;
     cursor: pointer;
-   
     margin-left: 20px;
     margin-bottom: 20px;
     transition: transform 0.5s;
