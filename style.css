@@ -80,7 +80,7 @@ p{
 }
 h5{
     color: white;
-    
+
 }
 .row{
     display:flex;
@@ -105,5 +105,17 @@ h5{
     margin-left: 20px;
     transition: transform 0.5s;
 }
+.moviecard1{
+    background-image: url(./images/Darjeeling\ poster.jpg);
+}
 
+.moviecard2{
+    background-image: url(./images/royal\ ten\ poster.jpg);
+}
+.moviecard3{
+    background-image: url(./images/fantastic\ fox\ poster.jpg);
+}
+.moviecard4{
+    background-image: url(./images/gran\ budapest\ poster.jpg);
+}
 
