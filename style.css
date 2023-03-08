@@ -84,6 +84,10 @@ h5{
     font-size: 30px;
 
 }
+h6{
+    font-size: 70px;
+
+}
 .row{
     flex: 2;
     padding-bottom: 40px;
@@ -164,4 +168,13 @@ th {
 td {
     border: 3px solid black;
 
+}
+div.tabletitle{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    border-radius: 3px;
+    border: 10px solid rgb(193, 112, 236);
+    border-style: ridge;
+    padding: 20px;
 }
