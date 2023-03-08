@@ -145,22 +145,23 @@ td {
     border-collapse: separate;
     border-radius: 20px;
     padding: 20px;
-    background-color: hotpink;
+    background-color: rgb(243, 236, 240);
     background-position: center;
     background-size:contain;
 }
 
 table {
     width: 100%;
-    border: 5px solid pink;
+    border: 30px solid rgb(231, 80, 145);
+    border-style:double;
 }
 th {
     font-weight: bold;
     border: 3px solid black;
-    border-spacing: 30px;
     
+
 }
 td {
     border: 3px solid black;
-    border-spacing: 50px;
+
 }
