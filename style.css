@@ -181,3 +181,30 @@ div.tabletitle{
     border-style: ridge;
     padding: 20px;
 }
+
+.btncontainer{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    size: 30px;
+    padding: 25px;
+  
+
+
+}
+.btn{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    size: 30px;
+    font-size: 40px;
+    color: lightcoral;
+    background-color: lightblue;
+    font-weight: bold;
+
+}
+.button{
+    font-size: 15px;
+    background-color: lightblue;
+    color: red;
+}
