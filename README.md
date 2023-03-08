@@ -11,3 +11,4 @@ Now that I have done this, I have decided how I am going to implement JS funcito
 8th March: LEARNT TO MAKE TABLE. I went online and found a way to create the basic contents and structure of a table.
 To do this I had to us <tr> , <th> and <td> tags. <Tr> is the main tag that wraps my other tags and content, <th> stands for "table head" and refers the to the info at the top of the table. In other words: the catergories section. Finally, <td> is the information INSIDE the table itself. I organized the tags in a coherent way and populated it with all of the movie data provided in the JS by Founders and coders.
 The end result is very rough and clearly needs more work and styling to look like a proper table. I also will then need to add JS features like "search by" and the ability ot add a movie to the table.
+Next thing to do is to use CSS to style the table to make it the appropriate sizing and so that it is visually pleasing.

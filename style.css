@@ -138,3 +138,26 @@ h5{
 .moviecard5{
     background-image: url(./images/movie\ add\ png.png);
 }
+
+table,
+th,
+td {
+    border-collapse: separate;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: hotpink;
+    background-position: center;
+    background-size:contain;
+}
+
+table {
+    width: 100%;
+    border: 5px solid pink;
+}
+th {
+    font-weight: bold;
+    border: 3px solid black;
+}
+td {
+    border: 3px solid black;
+}
