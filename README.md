@@ -14,3 +14,5 @@ The end result is very rough and clearly needs more work and styling to look lik
 Next thing to do is to use CSS to style the table to make it the appropriate sizing and so that it is visually pleasing.
 I have now added a "Sort A-Z" button above my table which I will eventually add funcionality to.
 Now that I have populated my table with HTML text, I have realized that I must produce the contents of my table specifically from my JS. I have no idea currently how ot do that so this will be my next step.
+9th March: I have chosen a table to display my movie data. I researched today that in my JS code I first have to target my table and link it with my movie data object in JS. To do this I will need to use (Write later)....
+\*I wanted to use one of my movie cards that said "Add movie" to my "submit" button that functions with my JS. I experimented with enclosing the "submit" code with my <div class= project card6> and it worked! The submit button is now embedded in the card image itself.
