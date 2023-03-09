@@ -68,6 +68,49 @@ for (let movieTitle in movieData) {
   moviesTable.appendChild(row);
 }
 
+let movieForm = document.querySelector('#movieForm');
+
+
+movieForm.addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevent the default form submission
+  
+  let titleInput = document.querySelector('#titleInput');
+  let plotInput = document.querySelector('#plotInput');
+  let castInput = document.querySelector('#castInput');
+  let runtimeInput = document.querySelector('#runtimeInput');
+  let ratingInput = document.querySelector('#ratingInput');
+  let yearInput = document.querySelector('#yearInput');
+  
+  // Create a new movie object with the data entered by the user
+  let newMovie = {
+    plot: plotInput.value,
+    cast: castInput.value.split(','),
+    runtime: parseInt(runtimeInput.value),
+    rating: parseFloat(ratingInput.value),
+    year: parseInt(yearInput.value)
+  };
+  
+  // Add the new movie to the existing movieData object
+  movieData[titleInput.value] = newMovie;
+  
+  // Add a new row to the table with the new movie data
+  let row = document.createElement('tr');
+  row.innerHTML = `
+    <td>${titleInput.value}</td>
+    <td>${newMovie.plot}</td>
+    <td>${newMovie.cast.join(', ')}</td>
+    <td>${newMovie.runtime}</td>
+    <td>${newMovie.rating}</td>
+    <td>${newMovie.year}</td>
+  `;
+  moviesTable.appendChild(row);
+  
+  // Reset the form
+  movieForm.reset();
+});
+
+
+  
 
 
 
