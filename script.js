@@ -34,4 +34,64 @@ let movieData = {
   },
 };
 
+let moviesTable = document.querySelector('#moviesTable tbody');
+
+for (let movieTitle in movieData) {
+  let movie = movieData[movieTitle];
+  
+  let row = document.createElement('tr');
+  
+  let titleCell = document.createElement('td');
+  titleCell.textContent = movieTitle;
+  row.appendChild(titleCell);
+  
+  let plotCell = document.createElement('td');
+  plotCell.textContent = movie.plot;
+  row.appendChild(plotCell);
+  
+  let castCell = document.createElement('td');
+  castCell.textContent = movie.cast.join(', ');
+  row.appendChild(castCell);
+  
+  let runtimeCell = document.createElement('td');
+  runtimeCell.textContent = movie.runtime;
+  row.appendChild(runtimeCell);
+  
+  let ratingCell = document.createElement('td');
+  ratingCell.textContent = movie.rating;
+  row.appendChild(ratingCell);
+  
+  let yearCell = document.createElement('td');
+  yearCell.textContent = movie.year;
+  row.appendChild(yearCell);
+  
+  moviesTable.appendChild(row);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  console.log(document.URL);
+  console.log(document.title);
+  console.log(document.all);
+
+  console.log('HAPPY ANNIVERSARY');
+
+
+
+
 
