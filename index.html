@@ -52,10 +52,6 @@
               <h5>The Grand Budapest Hotel</h5>
               <p>Directed by</p>
             </div>
-            <div class="moviecard moviecard5">
-              <h5>ADD A MOVIE</h5>
-              <p>Directed by</p>
-            </div>
           </div>
         </div>
 
@@ -71,80 +67,11 @@
         <button class="btn" onclick="sortTable()"> Sort A - Z </button>
       </div>
 
-        <table>
-          <tr>
-            <th> Title </th>
-            <th> Year </th>
-            <th> Runtime </th>
-            <th> Cast </th>
-            <th> Plot </th>
-            <th> Rating </th>
-           
-          </tr>
-          <tr>
-          <td> The Darjeeling Limited </td>
-          <td> 2007 </td>
-          <td> 151 minutes </td>
-          <td> Jason Schwartzman, Owen Wilson, Adrien Brody </td>
-          <td> "A year after their father's funeral, three brothers travel across India by train in an attempt to bond with each other." </td>
-          <td> 7.2 </td>
-        </tr>
-        <tr> 
-          <td> The Royal Tenenbaums </td>
-          <td> 2001 </td>
-          <td> 170 minutes </td>
-          <td> Gene Hackman, Gwnyeth Paltrow, Anjelica Hutson  </td>
-          <td> The eccentric members of a dysfunctional family reluctantly gather under the same roof for various reasons" </td>
-          <td> 7.6 </td>
-        </tr>
-        <tr>
-          <td> Fantastic Mr. Fox  </td>
-          <td> 2009 </td>
-          <td> 147 minutes </td>
-          <td> George Clooney, Meryl Streep, Bill Murray, Jason Schwartzman </td>
-          <td> An urbane fox cannot resist returning to his farm raiding ways and then must help his community survive the farmers' retaliation."  </td>
-          <td> 7.9 </td>
-        </tr>
-        <tr>
-          <td> The Grand Budapest Hotel</td>
-          <td> 2014  </td>
-          <td> 159 minutes </td>
-          <td>Ralph Fiennes, F. Murray Abraham, Mathieu Amlaric </td>
-          <td> "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge." </td>
-          <td> 8.1 </td>
-        </tr>
-        <tr>
-          
-
-        </table>
+        
       </section>
 
 
-      <form id="movieForm">
-        <label for="titleInput">Title:</label>
-        <input type="text" id="titleInput" name="title">
-        <br>
-        <label for="plotInput">Plot:</label>
-        <textarea id="plotInput" name="plot"></textarea>
-        <br>
-        <label for="castInput">Cast:</label>
-        <input type="text" id="castInput" name="cast">
-        <br>
-        <label for="runtimeInput">Runtime:</label>
-        <input type="number" id="runtimeInput" name="runtime">
-        <br>
-        <label for="ratingInput">Rating:</label>
-        <input type="number" id="ratingInput" name="rating" step="0.1">
-        <br>
-        <label for="yearInput">Year:</label>
-        <input type="number" id="yearInput" name="year">
-        <br>
-        <a <div class="moviecard moviecard5">
-          <h5>ADD A MOVIE</h5>
-        </div>
-        <input type="submit" value="Add Movie">
-      </a> 
-      </form>
+ 
       
       <table id="moviesTable">
         <thead>
@@ -160,14 +87,34 @@
         <tbody>
           <!-- Table rows will be added dynamically -->
         </tbody>
-      </table>
-      
-   
-
-
+      </table
 
     
     </div>
+
+    <form id="movieForm">
+      <label for="titleInput">Title:</label>
+      <input type="text" id="titleInput" name="title">
+      <br>
+      <label for="plotInput">Plot:</label>
+      <textarea id="plotInput" name="plot"></textarea>
+      <br>
+      <label for="castInput">Cast:</label>
+      <input type="text" id="castInput" name="cast">
+      <br>
+      <label for="runtimeInput">Runtime:</label>
+      <input type="number" id="runtimeInput" name="runtime">
+      <br>
+      <label for="ratingInput">Rating:</label>
+      <input type="number" id="ratingInput" name="rating" step="0.1">
+      <br>
+      <label for="yearInput">Year:</label>
+      <input type="number" id="yearInput" name="year">
+      <br>
+      
+      <input type="submit" value="Add Movie">
+    </a> 
+    </form>
   
      
     <script src="./script.js"></script>
