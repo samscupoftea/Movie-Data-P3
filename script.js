@@ -110,6 +110,10 @@ movieForm.addEventListener('submit', function(event) {
 });
 
 
+// sort table and sort A to Z 
+
+
+
   
 
 
