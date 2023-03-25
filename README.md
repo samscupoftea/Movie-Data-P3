@@ -11,7 +11,7 @@ Summary:
 5. March 8th: I learned how to make a basic table with the <tr>, <th>, and <td> tags and organized them to populate it with movie data. I added a "Sort A-Z" button and realized I needed to produce table contents specifically from my JS.
 6. March 9th: I chose a table to display my movie data and focused on the JS aspect of the project, coding to access the HTML table, loop through the movieData object, create a new row in the table, populate the cells of the row with movie data, and append the new row to the table. I also added the ability to add a new movie to the table and experimented with embedding the "submit" button in a card image.
 
-//// ------------------------------------------------------------------------------------------------
+---
 
 Progress diary:
 
