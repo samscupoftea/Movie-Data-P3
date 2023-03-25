@@ -5,20 +5,20 @@ Movie Data Readme
 Summary:
 
 <<<<<<< HEAD
+
 1. I learned basic JS through Code Academy and finished built-in projects on variables, methods, and string interpolation.
 2. March 5th: I studied If, Then, and Else statements and evaluated my progress from the day before.
 3. March 6th: I copied JS code from the Coders and Founders website to start my movie data page and planned to implement my design using HTML and CSS before moving on to JS.
 4. March 7th: I focused on HTML and CSS, styling and formatting the page to be visually appealing with interactive cards for each of the five movies. I decided to implement JS functionality through a table below the decorations and did research on table creation.
-5. March 8th: I learned how to make a basic table with the <tr>, <th>, and <td> tags and organized them to populate it with movie data. I added a "Sort A-Z" button and realized I needed to produce table contents specifically from my JS.
-6. March 9th: I chose a table to display my movie data and focused on the JS aspect of the project, coding to access the HTML table, loop through the movieData object, create a new row in the table, populate the cells of the row with movie data, and append the new row to the table. I also added the ability to add a new movie to the table and experimented with embedding the "submit" button in a card image.
-=======
-March 4th: Learned basic JS through Code Academy and finished built-in projects on variables, methods, and string interpolation.
-March 5th: Studied If, Then, and Else statements and evaluated progress from the day before.
-March 6th: Copied JS code from the Coders and Founders website to start a movie data page and planned to implement the design using HTML and CSS.
-March 7th: Focused on HTML and CSS, styling and formatting the page to be visually appealing with interactive cards for each of the five movies. Decided to implement JS functionality through a table below the decorations and did research on table creation.
-March 8th: Learned how to make a basic table with the <table>, <tr>, and <td> tags and organized them to populate it with movie data. Added a "Sort A-Z" button and realized the table contents needed to be produced specifically from the JS.
-March 9th: Chose a table to display movie data and focused on the JS aspect of the project. Coded to access the HTML table, loop through the movieData object, create a new row in the table, populate the cells of the row with movie data, and append the new row to the table. Also added the ability to add a new movie to the table and experimented with embedding the "submit" button in a card image.
->>>>>>> origin/main
+5. March 8th: I learned how to make a basic table with the table head and table row tags and organized them to populate it with movie data. I added a "Sort A-Z" button and realized I needed to produce table contents specifically from my JS.
+6. # March 9th: I chose a table to display my movie data and focused on the JS aspect of the project, coding to access the HTML table, loop through the movieData object, create a new row in the table, populate the cells of the row with movie data, and append the new row to the table. I also added the ability to add a new movie to the table and experimented with embedding the "submit" button in a card image.
+   March 4th: Learned basic JS through Code Academy and finished built-in projects on variables, methods, and string interpolation.
+   March 5th: Studied If, Then, and Else statements and evaluated progress from the day before.
+   March 6th: Copied JS code from the Coders and Founders website to start a movie data page and planned to implement the design using HTML and CSS.
+   March 7th: Focused on HTML and CSS, styling and formatting the page to be visually appealing with interactive cards for each of the five movies. Decided to implement JS functionality through a table below the decorations and did research on table creation.
+   March 8th: Learned how to make a basic table with the table, tr, and td tags and organized them to populate it with movie data. Added a "Sort A-Z" button and realized the table contents needed to be produced specifically from the JS.
+   March 9th: Chose a table to display movie data and focused on the JS aspect of the project. Coded to access the HTML table, loop through the movieData object, create a new row in the table, populate the cells of the row with movie data, and append the new row to the table. Also added the ability to add a new movie to the table and experimented with embedding the "submit" button in a card image.
+   > > > > > > > origin/main
 
 ---
 
@@ -33,7 +33,7 @@ My first goal is to implement my design ideas using html and CSS. Once I have do
 I spent a lot of time styling and formatting. I wanted the cards to be centered so I had do do a lot if trial and error with flex.
 Now that I have done this, I have decided how I am going to implement JS funcitonality to my project. I am going to make a small table below the decorations that I have designed today. I don't yet know how to create and format a table, so some online research is what I am doing.
 8th March: LEARNT TO MAKE TABLE. I went online and found a way to create the basic contents and structure of a table.
-To do this I had to us <tr> , <th> and <td> tags. <Tr> is the main tag that wraps my other tags and content, <th> stands for "table head" and refers the to the info at the top of the table. In other words: the catergories section. Finally, <td> is the information INSIDE the table itself. I organized the tags in a coherent way and populated it with all of the movie data provided in the JS by Founders and coders.
+To do this I had to us tr, th and td tags. Tr is the main tag that wraps my other tags and content, th stands for "table head" and refers the to the info at the top of the table. In other words: the catergories section. Finally, td is the information INSIDE the table itself. I organized the tags in a coherent way and populated it with all of the movie data provided in the JS by Founders and coders.
 The end result is very rough and clearly needs more work and styling to look like a proper table. I also will then need to add JS features like "search by" and the ability ot add a movie to the table.
 Next thing to do is to use CSS to style the table to make it the appropriate sizing and so that it is visually pleasing.
 I have now added a "Sort A-Z" button above my table which I will eventually add funcionality to.
@@ -49,4 +49,4 @@ Now I must focus on the Javascript aspect of this project. After a lot of work a
 
 Learning how to add the for... in loop was challenging and a little bit confusing at first. The logic of just how to get the movie data to show on the page was hard enough, but getting it to display in a table element in HTML seemed more challenging.
 I had to also add the ability to add your own movie to the table. Some parts of this really confuses me still and I need more time with JS to really feel comfortable with how I achieved my desired result.
-\*I wanted to use one of my movie cards that said "Add movie" to my "submit" button that functions with my JS. I experimented with enclosing the "submit" code with my <div class= project card6> and it worked! The submit button is now embedded in the card image itself.
+\*\*I wanted to use one of my movie cards that said "Add movie" to my "submit" button that functions with my JS. I experimented with enclosing the "submit" code with my <div class= project card6> and it worked! The submit button is now embedded in the card image itself.
