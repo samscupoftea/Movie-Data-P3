@@ -1,5 +1,20 @@
 # Movie-Data-P3
 
+Movie Data Readme
+
+Summary:
+
+March 4th: I learned basic JS through Code Academy and finished built-in projects on variables, methods, and string interpolation.
+March 5th: I studied If, Then, and Else statements and evaluated my progress from the day before.
+March 6th: I copied JS code from the Coders and Founders website to start my movie data page and planned to implement my design using HTML and CSS before moving on to JS.
+March 7th: I focused on HTML and CSS, styling and formatting the page to be visually appealing with interactive cards for each of the five movies. I decided to implement JS functionality through a table below the decorations and did research on table creation.
+March 8th: I learned how to make a basic table with the <tr>, <th>, and <td> tags and organized them to populate it with movie data. I added a "Sort A-Z" button and realized I needed to produce table contents specifically from my JS.
+March 9th: I chose a table to display my movie data and focused on the JS aspect of the project, coding to access the HTML table, loop through the movieData object, create a new row in the table, populate the cells of the row with movie data, and append the new row to the table. I also added the ability to add a new movie to the table and experimented with embedding the "submit" button in a card image.
+
+//// ------------------------------------------------------------------------------------------------
+
+Progress diary:
+
 4th March: Before starting work on this project, I thought it would be wise to learn a but more basic JS. My main resource for this was code academy. I started learning the different kinds of variables and their various uses. I also learnt about medthods and string interpolation.
 By the end of the day I finished the built-in projects regardin all of the above. I had some difficulty remembering the format of the code and also training my brain to think in a very linearly logic way.
 5th March: Today I re-evulated my progress from yesterday and began studying more about If, Then and Else statements.
@@ -14,5 +29,15 @@ The end result is very rough and clearly needs more work and styling to look lik
 Next thing to do is to use CSS to style the table to make it the appropriate sizing and so that it is visually pleasing.
 I have now added a "Sort A-Z" button above my table which I will eventually add funcionality to.
 Now that I have populated my table with HTML text, I have realized that I must produce the contents of my table specifically from my JS. I have no idea currently how ot do that so this will be my next step.
-9th March: I have chosen a table to display my movie data. I researched today that in my JS code I first have to target my table and link it with my movie data object in JS. To do this I will need to use (Write later)....
+9th March: I have chosen a table to display my movie data. I researched today that.
+Now I must focus on the Javascript aspect of this project. After a lot of work and research I have coded JS to do the following...
+
+1. Access the HTML table using its id or any other selector.
+2. Loop through the movieData object using a for...in loop.
+3. For each movie in the object, create a new row in the table using the HTML tr tag.
+4. Populate the cells of the row with the movie data using the HTML td tag.
+5. Append the new row to the table.
+
+Learning how to add the for... in loop was challenging and a little bit confusing at first. The logic of just how to get the movie data to show on the page was hard enough, but getting it to display in a table element in HTML seemed more challenging.
+I had to also add the ability to add your own movie to the table. Some parts of this really confuses me still and I need more time with JS to really feel comfortable with how I achieved my desired result.
 \*I wanted to use one of my movie cards that said "Add movie" to my "submit" button that functions with my JS. I experimented with enclosing the "submit" code with my <div class= project card6> and it worked! The submit button is now embedded in the card image itself.
